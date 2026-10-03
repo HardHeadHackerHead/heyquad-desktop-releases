@@ -9,22 +9,18 @@ Installed copies of the app check here for new versions and update themselves.
 
 ## Download
 
-| Platform | Download |
-| --- | --- |
-| Windows 10/11 (64-bit), recommended | [HeyQuad-x64.msi](https://github.com/HardHeadHackerHead/heyquad-desktop-releases/releases/latest/download/HeyQuad-x64.msi) |
-| Windows, per-user install (no admin rights needed) | [HeyQuad-x64-setup.exe](https://github.com/HardHeadHackerHead/heyquad-desktop-releases/releases/latest/download/HeyQuad-x64-setup.exe) |
+**[Download Hey Quad for Windows (HeyQuad-x64-setup.exe)](https://github.com/HardHeadHackerHead/heyquad-desktop-releases/releases/latest/download/HeyQuad-x64-setup.exe)**
 
-Every version, with its notes and checksums (`SHA256SUMS.txt`), is on the
+Windows 10/11, 64-bit. It installs just for you and doesn't need
+administrator rights. Every version, with its notes and checksums
+(`SHA256SUMS.txt`), is on the
 [Releases](https://github.com/HardHeadHackerHead/heyquad-desktop-releases/releases) page.
 
-Install one of the two Windows packages, not both. The `.msi` installs for
-everyone on the computer and asks for administrator approval; the `.exe`
-installs only for you.
-
-> **Windows SmartScreen.** The installers are not yet Authenticode-signed, so
-> Windows may show "Windows protected your PC". Choose **More info → Run
-> anyway**. Updates are still cryptographically signed and checked by the app
-> before it installs them.
+The installer and the app are Authenticode code-signed. Because the
+publisher is new, Windows SmartScreen may still show "Windows protected your
+PC" for a while. If it does, choose **More info → Run anyway**. Updates are
+also cryptographically signed, and the app checks that signature before it
+installs anything.
 
 ## System requirements
 
